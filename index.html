@@ -209,7 +209,7 @@
             });
           } else if (model === 'sonnet') {
             console.log('Sending POST request to backend for Anthropic...');
-            response = await fetch('http://localhost:3000/api/anthropic', {
+            response = await fetch('https://parentpal-backend.storagebyshiv.workers.dev/', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
